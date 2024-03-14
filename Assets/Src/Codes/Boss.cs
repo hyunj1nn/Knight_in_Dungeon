@@ -64,8 +64,8 @@ public class Boss : Enemy
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         StartCoroutine(StartPatternAfterDelay(5f));  // 5초 후에 패턴을 시작하도록 설정
-
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 

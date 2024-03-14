@@ -1,0 +1,550 @@
+fileFormatVersion: 2
+guid: 1134016493719e448818992da47157a3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 9_Blast_hammer_0
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 494
+        width: 112
+        height: 131
+      alignment: 9
+      pivot: {x: 0.1, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcbe7cf99f23394e9002b0f226012fb
+      internalID: -727961247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 495
+        width: 112
+        height: 133
+      alignment: 9
+      pivot: {x: 0.1, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9418dbeac60ca4ebfed862c9ea1434
+      internalID: -2069846273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_2
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 496
+        width: 108
+        height: 134
+      alignment: 9
+      pivot: {x: 0.1, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cd9dfa680e4174fb788aa75a7e825d
+      internalID: -3992579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_3
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 497
+        width: 110
+        height: 133
+      alignment: 9
+      pivot: {x: 0.1, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d453414dbac0cf442851b800ed8a93d5
+      internalID: -1271909978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_4
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 497
+        width: 110
+        height: 129
+      alignment: 9
+      pivot: {x: 0.1, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e56464f8e2124f48a76dc931a82ff11
+      internalID: -1794268300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_5
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 479
+        width: 181
+        height: 137
+      alignment: 9
+      pivot: {x: 0.24598584, y: 0.12749843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20622d354190d064d8786c4ce931a08b
+      internalID: -307073311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 325
+        width: 204
+        height: 137
+      alignment: 9
+      pivot: {x: 0.32, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bf9e36145c3394d87eb59e04263819
+      internalID: -2136043980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 325
+        width: 201
+        height: 135
+      alignment: 9
+      pivot: {x: 0.3741083, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585cd27862c73934480f73eade32f1ca
+      internalID: 93572190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_8
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 324
+        width: 198
+        height: 134
+      alignment: 9
+      pivot: {x: 0.42979908, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b506ea90b5aa9af42bb0023f3846f2d4
+      internalID: 550769293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_9
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 324
+        width: 197
+        height: 119
+      alignment: 9
+      pivot: {x: 0.44027415, y: 0.15008211}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097e70c4ddd52334eb84e4ff515a527d
+      internalID: -535782978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_10
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 324
+        width: 202
+        height: 75
+      alignment: 9
+      pivot: {x: 0.4530301, y: 0.2199829}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7cb34dceedb0f47b7f757b11ac8aad
+      internalID: 683229456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 153
+        width: 202
+        height: 75
+      alignment: 9
+      pivot: {x: 0.4502021, y: 0.23656006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a922e1510ce19d34fb2d52beecc6a48c
+      internalID: 1275612208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_12
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 158
+        width: 200
+        height: 75
+      alignment: 9
+      pivot: {x: 0.45890808, y: 0.23761597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7822c6e5bd19b649a0fd8dcdf9776ed
+      internalID: 318364860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_13
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 167
+        width: 163
+        height: 71
+      alignment: 9
+      pivot: {x: 0.3255986, y: 0.24295817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547089e52d393ef439fea28b2d61ac95
+      internalID: -149594675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_14
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 179
+        width: 128
+        height: 58
+      alignment: 9
+      pivot: {x: 0.15968895, y: 0.24422954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db590835a0660645bd84cecc70d578a
+      internalID: -178639163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_15
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 186
+        width: 123
+        height: 54
+      alignment: 9
+      pivot: {x: 0.20071535, y: 0.24643537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033d8fd1fec13ec40819bfe458c55da6
+      internalID: -733462710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_16
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 199
+        width: 91
+        height: 55
+      alignment: 9
+      pivot: {x: 0.109569505, y: 0.09232483}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4841f1fbafd35ac4381ea73f5c73e9d6
+      internalID: -1866273747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Blast_hammer_17
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 51
+        width: 141
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8e4b8f2878f2649a01fdcc4324fc18
+      internalID: -531422671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      9_Blast_hammer_0: -727961247
+      9_Blast_hammer_1: -2069846273
+      9_Blast_hammer_10: 683229456
+      9_Blast_hammer_11: 1275612208
+      9_Blast_hammer_12: 318364860
+      9_Blast_hammer_13: -149594675
+      9_Blast_hammer_14: -178639163
+      9_Blast_hammer_15: -733462710
+      9_Blast_hammer_16: -1866273747
+      9_Blast_hammer_17: -531422671
+      9_Blast_hammer_18: -1132262464
+      9_Blast_hammer_19: -226694614
+      9_Blast_hammer_2: -3992579
+      9_Blast_hammer_20: -718465541
+      9_Blast_hammer_21: 1824584249
+      9_Blast_hammer_22: 183139268
+      9_Blast_hammer_23: -466619096
+      9_Blast_hammer_24: 376721725
+      9_Blast_hammer_25: -473726322
+      9_Blast_hammer_26: -1278573547
+      9_Blast_hammer_27: 2037431315
+      9_Blast_hammer_28: 1623722474
+      9_Blast_hammer_29: 148625152
+      9_Blast_hammer_3: -1271909978
+      9_Blast_hammer_30: 620897342
+      9_Blast_hammer_31: 125900212
+      9_Blast_hammer_32: -452915964
+      9_Blast_hammer_33: -1109870772
+      9_Blast_hammer_34: 640163231
+      9_Blast_hammer_35: 1812242787
+      9_Blast_hammer_36: -1279309484
+      9_Blast_hammer_37: -874705334
+      9_Blast_hammer_38: 193950040
+      9_Blast_hammer_39: 925355454
+      9_Blast_hammer_4: -1794268300
+      9_Blast_hammer_41: -1239039607
+      9_Blast_hammer_43: -625177
+      9_Blast_hammer_44: 1922035780
+      9_Blast_hammer_45: 1665392997
+      9_Blast_hammer_46: -1294447325
+      9_Blast_hammer_47: 331334719
+      9_Blast_hammer_49: 213065592
+      9_Blast_hammer_5: -307073311
+      9_Blast_hammer_50: 93429562
+      9_Blast_hammer_51: -228991393
+      9_Blast_hammer_6: -2136043980
+      9_Blast_hammer_7: 93572190
+      9_Blast_hammer_8: 550769293
+      9_Blast_hammer_9: -535782978
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

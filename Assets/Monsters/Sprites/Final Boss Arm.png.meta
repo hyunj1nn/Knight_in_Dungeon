@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: 0301f2fe003f8c64b8e6539d5de1a1f0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Final Boss Arm_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 63
+        width: 29
+        height: 92
+      alignment: 9
+      pivot: {x: 0.49999738, y: 0.06605745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc941bad3879b63429f22fdc261db362
+      internalID: -222112120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 63
+        width: 31
+        height: 95
+      alignment: 9
+      pivot: {x: 0.49999902, y: 0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00db75892d701843a8652b8ce0a2ff7
+      internalID: 212477227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 61
+        width: 31
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5116991, y: 0.08519542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee31a6bc8dcba247a4689d255cdd35a
+      internalID: -920510679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 62
+        width: 32
+        height: 100
+      alignment: 9
+      pivot: {x: 0.49999714, y: 0.0781353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5f91b5ffdb0004fb9e1a3a14089232
+      internalID: 1243193584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_4
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 62
+        width: 32
+        height: 102
+      alignment: 9
+      pivot: {x: 0.52266884, y: 0.09}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605d85b4fdb2c0e4fbbe2a0df6132dca
+      internalID: 685778069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_5
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 61
+        width: 32
+        height: 103
+      alignment: 9
+      pivot: {x: 0.48866463, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fb5fb9264ecd849ac60be42fa7757b
+      internalID: 1438157160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_6
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 60
+        width: 43
+        height: 103
+      alignment: 9
+      pivot: {x: 0.49999857, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabf6330c84073d4885ae0953b1e7dfa
+      internalID: -2009825493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_7
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 59
+        width: 51
+        height: 105
+      alignment: 9
+      pivot: {x: 0.55689436, y: 0.1027452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8913660205de3499f37424bc7529e0
+      internalID: -1924707978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_8
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 60
+        width: 51
+        height: 105
+      alignment: 9
+      pivot: {x: 0.59, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e465cbdb7880f428f84e5b6ff9857f
+      internalID: 1675533027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_9
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 61
+        width: 51
+        height: 105
+      alignment: 9
+      pivot: {x: 0.56400675, y: 0.09929083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d21c98709f83d4582380ad91299345
+      internalID: -1870228131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_10
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 62
+        width: 32
+        height: 106
+      alignment: 9
+      pivot: {x: 0.4895172, y: 0.088562734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d40f4ac44a98024e8103cae295dcdcb
+      internalID: -1328921957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_11
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 63
+        width: 32
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b54bc2e777c6f40ae444d0dcffdb50
+      internalID: 1922029489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_12
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 63
+        width: 31
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab7c07050504a94da80ccdf593d5c3a
+      internalID: 1895006535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_13
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 65
+        width: 29
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5128122a925ea542af60ecf83db3cc6
+      internalID: -998933676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_14
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 63
+        width: 35
+        height: 105
+      alignment: 9
+      pivot: {x: 0.50958425, y: 0.09}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82df841f26b20024a817d14db7da0310
+      internalID: 1256954291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Boss Arm_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 60
+        width: 35
+        height: 92
+      alignment: 9
+      pivot: {x: 0.49999857, y: 0.0878849}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86f174b853308e4e939b1c335f89919
+      internalID: -766867653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Final Boss Arm_0: -222112120
+      Final Boss Arm_1: 212477227
+      Final Boss Arm_10: -1328921957
+      Final Boss Arm_11: 1922029489
+      Final Boss Arm_12: 1895006535
+      Final Boss Arm_13: -998933676
+      Final Boss Arm_14: 1256954291
+      Final Boss Arm_15: -766867653
+      Final Boss Arm_2: -920510679
+      Final Boss Arm_3: 1243193584
+      Final Boss Arm_4: 685778069
+      Final Boss Arm_5: 1438157160
+      Final Boss Arm_6: -2009825493
+      Final Boss Arm_7: -1924707978
+      Final Boss Arm_8: 1675533027
+      Final Boss Arm_9: -1870228131
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3951 @@
+fileFormatVersion: 2
+guid: 206d896064ec62945881a37e0c417647
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Medieval Castle & House_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1028
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb49cf7b7fe64b41b9307ab01f61696
+      internalID: -1343072352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1033
+        width: 106
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6788cf6b0220a5e4698c640c430b8dfe
+      internalID: 884797092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_2
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 924
+        width: 16
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0624e8d6ad741434ea1916664bb592fb
+      internalID: -1610917352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_3
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1011
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8483d8cc2501ca744a205ebb78b3d14a
+      internalID: 1581884825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_4
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 921
+        width: 39
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed973d2196da3a4b94b406eb17d154e
+      internalID: -1797438220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_5
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 992
+        width: 31
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b07f68ecfa510d47b6163fa11205988
+      internalID: 1682786980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_6
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 992
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d066ad37efae7224fa05bcdb0bd2322e
+      internalID: 590175556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_7
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 992
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0da7dc4654410941ae8e7905f18947f
+      internalID: 927333765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_8
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 993
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce73177938b867b48aea5b8ca082926c
+      internalID: -601893355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_9
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 993
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6107375ca8167714798ae3b9fa4cf7fb
+      internalID: 192947672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 975
+        width: 59
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa65cb8dc48818149a9a98b4b67b89ec
+      internalID: -1945147304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 920
+        width: 82
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21aea964d3c6424f92cf0721edcafe9
+      internalID: 29698080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_12
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 972
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972ca3e3696c03745b03477566b0b5cd
+      internalID: -981487012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_13
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 972
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605945c83061cc84b989d11ba7010367
+      internalID: 396367408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_14
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 972
+        width: 49
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d79f5b4d1f19e84ebf2cc0e7f96fa5f
+      internalID: 1237900124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_15
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 972
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3633238329c2ab489cbf851ab6541c4
+      internalID: 373069202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_16
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 972
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28c2c1644b57da449c012edaa20e928
+      internalID: -2029990730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_17
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 905
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1640ef2fc10f54fb1c7248595e4692
+      internalID: -1256786595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_18
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 904
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9452de61b9aa8f343bfe099605b14692
+      internalID: 1840694769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_19
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 933
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc3fbf1929707f448754fe7dcd9fb92
+      internalID: 911370379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_20
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 932
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c3a6a22def5214e950d2573e77b48a
+      internalID: 1128826252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_21
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 932
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de0331c4adac934697560f9f1ab7f02
+      internalID: -1842112287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_22
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 879
+        width: 29
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80367015170aa2649ade6743c67fa8c3
+      internalID: -1170161648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 938
+        width: 84
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f19ccd745a5e44aa9ccffa4adbbc54
+      internalID: -1956330860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_24
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 935
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ba8abe6083623459f5826b195a8b54
+      internalID: -1418674146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 936
+        width: 52
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95872447a5b6a0e49a00ab8248414697
+      internalID: -2017378506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_26
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 931
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44610f08c7f2eef4384dba180a6dadf2
+      internalID: -1170638129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_27
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 903
+        width: 14
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22e7c60b83981f409aa05eccb246d69
+      internalID: -627220227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_28
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 862
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da17503cb111ea3438eee1435c7c9d8d
+      internalID: 2112949456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_29
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 868
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd49efc8d084e424b8e50aeac1277c5c
+      internalID: -1596458251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_30
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 906
+        width: 75
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609dbb122ffb2974b9ddce407f9349da
+      internalID: 402539868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_31
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 835
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c013fa570c6e2a64bba0d6b6e516fe21
+      internalID: 640883189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_32
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 834
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3713450a67581654ab3c5967cebd5104
+      internalID: -187870265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_33
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 830
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12959802d7b8d804f95f6187f193f8bf
+      internalID: -1133727012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_34
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 829
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe136acc1679bf41bb81b8a6b9a0d70
+      internalID: -1234771937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_35
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 825
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62cfedb065c912542be5675744e8009c
+      internalID: -2020841050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_36
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 868
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f70c2e4f0e969449124b35a3fb7e09
+      internalID: 735982830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_37
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 865
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10aece8306884054eab0de9eda1e66f3
+      internalID: -1442386730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_38
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 866
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c827e1edd75374a975228f4f7f9824
+      internalID: -1705723209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_39
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 864
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01257c06ac81487409b92d2e50d774eb
+      internalID: 2136745183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_40
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 860
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009946222088214489d9d7ed02ddbdc2
+      internalID: 985586618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_41
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 859
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba812b49737b1a649b6115a0f315f5ac
+      internalID: 108472370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_42
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 860
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180e5f055a452304ba64989b1dfaa3c5
+      internalID: 1434581910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_43
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 857
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe7049dfb6948148b80283d116d79e3
+      internalID: 295360811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_44
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 860
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ec3dfb7bee0614f916de74f52d49f8
+      internalID: -78953951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_45
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 860
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3245c097e10e0d04d85cc152ed6b363f
+      internalID: -420437706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_46
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 858
+        width: 6
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6542083d82fdb941886f05cf8219988
+      internalID: 1760327477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_47
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 858
+        width: 6
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712ebd7debcfef74ba9496c402dea35a
+      internalID: 89039058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_48
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 869
+        width: 83
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86723cb73593096458757f9419a443b6
+      internalID: 1800211971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_49
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 832
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4efcfe4acf8f34bbbd7dfe67a78f12
+      internalID: 1355228925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_50
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 832
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cfd3c21f6fb6541ab338d209f9f99a
+      internalID: 1606593763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_51
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 844
+        width: 72
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a340df59a72084caff4c23b725f5be
+      internalID: -1408590947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_52
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 774
+        width: 8
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1e3023e9deb4049aa98ba95a2975aa
+      internalID: 63157932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_53
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 792
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9d5b3945a5758438c3fb89ff486553
+      internalID: -1317286836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_54
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 831
+        width: 65
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f4ac35c3ae8f14680bf8b34434e3de
+      internalID: -894591372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 818
+        width: 73
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd40b767f48c204782d2b9cde9c81f2
+      internalID: -1545850343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_56
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 786
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9af2ad1b0d3c72418242c5f0d050482
+      internalID: 109948597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_57
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 784
+        width: 4
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd6dda53428f744f962d8d85353b881
+      internalID: 1442703389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_58
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 717
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb0b829a7b32e741aec7941dc5465b9
+      internalID: 45415159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_59
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 717
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e1d08304bba4d49922ff4fd326001d
+      internalID: -584548214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_60
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 717
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604e43dafaa64a1498e62ebcea1bbc35
+      internalID: 484057530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_61
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 802
+        width: 55
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d10565a64980c7478f8972f80dddc9f
+      internalID: -362085391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_62
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 784
+        width: 4
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f93f67af5e20d48bc96ec328807130
+      internalID: 1156892101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_63
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 784
+        width: 4
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7672bf5d00a7b4dab502586ad2f3ea
+      internalID: 248684918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_64
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 749
+        width: 82
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a1a545cd6f9cc4da22f5571eeb72c3
+      internalID: 1405789234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_65
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 716
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0f301fbeff8d64da59218eb817c8a5
+      internalID: 1380556052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_66
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 793
+        width: 30
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2082b6dd96e3240a113599aae7c8a0
+      internalID: -1650853519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_67
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 793
+        width: 35
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09be913798f73014694e3cf0be709861
+      internalID: -1192086116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_68
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 734
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cec20f5083c2be4b9ab5e504861090d
+      internalID: -843836901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_69
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 752
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be806dfebab0f3408a0deb1ed8766f7
+      internalID: 1683762932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 723
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469b18de98488524491b9e92be96dd2a
+      internalID: 81355874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_71
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 723
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab396b5a1af0cf4e8017175411d885b
+      internalID: 603779084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_72
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 722
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1298b65294bce4babb8e76d4dd5d9d
+      internalID: -169241348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_73
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 677
+        width: 36
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a560956d2df84c548b4839b67055518a
+      internalID: -5909345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_74
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 677
+        width: 36
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12441bcb41ec46749b0ec56712c2ea04
+      internalID: -1140714995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_75
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 658
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa03c4e5b04a135429e1b73aba383d34
+      internalID: 1608752112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_76
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 658
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07893aba3eae2e740b8295850ca13a80
+      internalID: 1862066971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_77
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 658
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab39b511430bd44395d845e1b078c49
+      internalID: 133904678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_78
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 659
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8884e4ddcfe6fac47a71ab566965b7bd
+      internalID: -1717766575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_79
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 658
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736bb56ea0d110449a38fb889f6b65e9
+      internalID: -765405459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_80
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 659
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3375a358574fe3418c7300e0dde9e90
+      internalID: -1136403316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_81
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 658
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a24b81a07c75c4a99814282c038efc
+      internalID: -811993226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_82
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 645
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e970ac7057abd744b7045ee5fa12aa3
+      internalID: 1541402079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_83
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 644
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7043b200027466a48920808c447d6fcd
+      internalID: -692310593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_84
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 645
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04f03165da79d4449f6ff96a2fda10e
+      internalID: -64284711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_85
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 658
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c15abdd0657c148849fb51c7641d30
+      internalID: 118814733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_86
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 576
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cee76ab13811e146acba44e22e03056
+      internalID: -1065745984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_87
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 576
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fe2dabdaa491841b2c2ab305a50f23
+      internalID: -889919373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_88
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 573
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c33caaef9d34645b2f531b99130b30
+      internalID: -921337523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_89
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 573
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22a5e3e88d07364dba1dd2f27030aa4
+      internalID: 575679309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_90
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 572
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dda3c90c4fde784284f372ee48d4f12
+      internalID: -2095959930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_91
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 572
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e22978ad957e5408c0f4433b25cbcf
+      internalID: -1344971731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_92
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 596
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed96076ebaf004944a9e5b6ab4907406
+      internalID: -1666577278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_93
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 605
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0868c74834fc53145a641e73d7f55b4b
+      internalID: -682007385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_94
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 542
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446d7c019e066154d812a02a453bcb19
+      internalID: -1911075280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_95
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 554
+        width: 67
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087e0d318a77d774ba50f7a5d26c4a01
+      internalID: -1262245910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_96
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 552
+        width: 66
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661db430420abfb479ef188c6c6c408c
+      internalID: 541865559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_97
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 481
+        width: 83
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1ac44c6045bb640b5fa14dc754f211
+      internalID: 1328468333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_98
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 485
+        width: 28
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25ef207e89f03740bcdafbdcac3b7ad
+      internalID: -81891106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_99
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 484
+        width: 57
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6545d8a52f9094e939efa9b9addc80
+      internalID: -1672525916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_100
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 520
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c0382be4f561742825ec94c9d418b0
+      internalID: -1464035706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_101
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 526
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206afddd1242dcc4099efc78bd26c604
+      internalID: 1785500024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_102
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 530
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf670e4e80593645b77e64e08b7a591
+      internalID: 648853461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_103
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 530
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54ed4d308bdd7a4487a6da84988d0f8
+      internalID: -1798447879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_104
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 525
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159a84bd3b2f7cf498efc96139bdcf9b
+      internalID: -701299392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_105
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 521
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0679c2bd29cec446a79f166e705170f
+      internalID: 12314111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_106
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 482
+        width: 54
+        height: 68
+      alignment: 9
+      pivot: {x: 0.32554117, y: 0.5000009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca5fe73a1e07284b8ca9ca9bebe1017
+      internalID: -1346784708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_107
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 489
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a0e77ab3e680d4882c3cc59b2e7241
+      internalID: 1507694895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_108
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 467
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b797fa1eb7b9542811cc93596577e3
+      internalID: 628414435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_109
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 468
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63052a116ff420246a8967c003f7fdb4
+      internalID: -2079698042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_110
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 467
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2086faafb14e2874db8ec7e522cd0cf2
+      internalID: 1380366930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_111
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 466
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b467bafccaf554c9f1f4cab14d7fd4
+      internalID: -1552329180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_112
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 465
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e8adebe6b70044eb4e57f6230ab447
+      internalID: -2064258758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_113
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 464
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20504b25d6955934ebb7ca51c5694349
+      internalID: 201687661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_114
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 464
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cda41a836e425947b974aeae5b05eae
+      internalID: 1752818158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_115
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 487
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4b54f8a22feb04eb332f6c231dfce4
+      internalID: -1592276799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_116
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 487
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043f0682f8251fe4a97d2721444e043f
+      internalID: 390747905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_117
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 486
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5d1a8313a6f1243ba64a36a2da0f07
+      internalID: 1425420105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_118
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 486
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30cc465e73dc9b43a5ae0cb447c523f
+      internalID: 895748471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_119
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 358
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ad08b49d96d0243912fb52a50d7dd6
+      internalID: 1278271784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_120
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 358
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816d4f4a6785cf24e8955fd832a38632
+      internalID: 2118388283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_121
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 357
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154945ec41c755146bc1ddbba6e0dfef
+      internalID: -291068659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_122
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 356
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9bbba9e744a8e41b3cd917c6b747c4
+      internalID: -833206039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_123
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 278
+        width: 99
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da960b02d43d83342b6a69b09bb38c9f
+      internalID: 452900471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_124
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 278
+        width: 77
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9d4151bc5e624438fe463d4a338968
+      internalID: 1275732054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_125
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 360
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1882d015fff4f47b04763e5bb91d52
+      internalID: -1322564185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_126
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 360
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ac7bab8f8f98c49bcc4769933f8b80
+      internalID: 1000410181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_127
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 360
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d70665358567164f8f01e9ef325ca85
+      internalID: 752938341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_128
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 360
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae5b25de4600af4faeb42767a0a45bd
+      internalID: 127272168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_129
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 339
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3999fa07e5878f408f341f3e966e865
+      internalID: 1894303607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_130
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 339
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ad126278e9c8748a698832d46bd297
+      internalID: -1621672119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_131
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 339
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55641cd967a32174ba2cc79ca8cb9bee
+      internalID: 415526810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_132
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f50a8b10fb729a4b984ae59c50a1337
+      internalID: 72507158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_133
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0441c88750bdf4147aced29be87dc2ce
+      internalID: 1096824800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_134
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf026bec27f9acd47a9659154a73c01c
+      internalID: -1094350638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_135
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 330
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060e1d3b80c39ab41864fad5c1546bac
+      internalID: -2050923735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_136
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 330
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15182274bb6303048973c49fb80ebada
+      internalID: -1370975371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_137
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 278
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53a6d0121e6add49bdb2404b321c5b2
+      internalID: 1818217579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_138
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 278
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafe5c36231b0bf4db671378cc1f1226
+      internalID: 839297644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_139
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 283
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731a45e758a5d594b8d17a7bd5a3d96b
+      internalID: -213315580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_140
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 283
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d640e4827574bdb428b2adb9b96b61e3
+      internalID: 41330671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_141
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 283
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a038bc5b1bbb814da1d03eb0923e220
+      internalID: 6324752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_142
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 283
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a57ab8e90e763648a7085748f711c18
+      internalID: -722603935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_143
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 312
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55212bdca7c67af4db52fc3fe57b8dca
+      internalID: -82915788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_144
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 306
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec660c4013262944b7efab39c3cc08d
+      internalID: 1175768128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_145
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 306
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0effcaa0f358c8b4b89fd5dd517c3e2a
+      internalID: 1824516845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_146
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 306
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f5ac3717b70a94699003f42c0993b3
+      internalID: 1401110509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_147
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 324
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfa51e1a6a4fd1479532db9f7afdcff
+      internalID: -63136141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_148
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 324
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd5e5e6aa51cb34f8ae274ff50bf53f
+      internalID: -409255722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_149
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 303
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4684f6e797542488688e231fbf12fc
+      internalID: 319660489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_150
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98066d95d212a5d40844a55deaff28a4
+      internalID: -1413167562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_151
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 303
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42fac25e66d1f9488cfc9a8e0a18741
+      internalID: -161791761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_152
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 297
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f2420e9aefa4347bc1555be3f9b76f
+      internalID: 1443278979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_153
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 297
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b210320291b71d4eb62db06a80d305c
+      internalID: -548230000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_154
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 274
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8267f87e0033ef945982075063e6d3f4
+      internalID: -392352401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_155
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 274
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd2e6aa913813d4ab0dce2079451e35
+      internalID: 689334909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_156
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 275
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76279f34b09196f42ab635bce3a4f0eb
+      internalID: 1880941588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_157
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3eb6af41235854881021745fe98e85
+      internalID: -424842270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_158
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dea0e50cd1258f45a8fce7ce19b239f
+      internalID: 1030495362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_159
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 271
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfbbc211e636864384affeeb93bde70
+      internalID: 1450213444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_160
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 271
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd01311329cbec448906891656ed1fd
+      internalID: 780968921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_161
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 272
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7818a3f1e353e7c4a99efab13306bb02
+      internalID: 1634710860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_162
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 173
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f824b2d018df24b919603cc0040158
+      internalID: -1939524791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_163
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 173
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb426145c0ae5004ab2ce17cbdf20f2c
+      internalID: 1535384873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_164
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 172
+        width: 96
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a609148842da742970ab1d5e2bd6e1
+      internalID: -409612734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_165
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 56
+        width: 298
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7851e65415b54549a50dfc0e629fb3f
+      internalID: 1685533557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_166
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 77
+        width: 83
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a5589c483fb9d41b7eae4718c1311a
+      internalID: 858057656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_167
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 67
+        width: 28
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c55a84cfd4c8a14da6c21e964a17777
+      internalID: 820965558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_168
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 66
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92259ca5b7adce445af37a6240aca8c6
+      internalID: 1213508243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_169
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 69
+        width: 37
+        height: 26
+      alignment: 9
+      pivot: {x: 0.6252095, y: 0.33666846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0887b56fc0f319148bd072e529a15c2e
+      internalID: -600778810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_170
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 123
+        width: 172
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bdc804a2b22a14d9517a73c234a622
+      internalID: 526375897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_171
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 122
+        width: 22
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5729897, y: 0.17885742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0fffe1024c69d42a443473e101e5c0
+      internalID: 487760633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_172
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 122
+        width: 21
+        height: 5
+      alignment: 9
+      pivot: {x: 0.6062012, y: 0.25022277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21a1e03bdd89b046a443417848ad035
+      internalID: 650943599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medieval Castle & House_173
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 122
+        width: 22
+        height: 5
+      alignment: 9
+      pivot: {x: 0.54866165, y: 0.42863768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885d0fef2c50a8e43b9f52c1dda705b5
+      internalID: -246037504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Medieval Castle & House_0: -1343072352
+      Medieval Castle & House_1: 884797092
+      Medieval Castle & House_10: -1945147304
+      Medieval Castle & House_100: -1464035706
+      Medieval Castle & House_101: 1785500024
+      Medieval Castle & House_102: 648853461
+      Medieval Castle & House_103: -1798447879
+      Medieval Castle & House_104: -701299392
+      Medieval Castle & House_105: 12314111
+      Medieval Castle & House_106: -1346784708
+      Medieval Castle & House_107: 1507694895
+      Medieval Castle & House_108: 628414435
+      Medieval Castle & House_109: -2079698042
+      Medieval Castle & House_11: 29698080
+      Medieval Castle & House_110: 1380366930
+      Medieval Castle & House_111: -1552329180
+      Medieval Castle & House_112: -2064258758
+      Medieval Castle & House_113: 201687661
+      Medieval Castle & House_114: 1752818158
+      Medieval Castle & House_115: -1592276799
+      Medieval Castle & House_116: 390747905
+      Medieval Castle & House_117: 1425420105
+      Medieval Castle & House_118: 895748471
+      Medieval Castle & House_119: 1278271784
+      Medieval Castle & House_12: -981487012
+      Medieval Castle & House_120: 2118388283
+      Medieval Castle & House_121: -291068659
+      Medieval Castle & House_122: -833206039
+      Medieval Castle & House_123: 452900471
+      Medieval Castle & House_124: 1275732054
+      Medieval Castle & House_125: -1322564185
+      Medieval Castle & House_126: 1000410181
+      Medieval Castle & House_127: 752938341
+      Medieval Castle & House_128: 127272168
+      Medieval Castle & House_129: 1894303607
+      Medieval Castle & House_13: 396367408
+      Medieval Castle & House_130: -1621672119
+      Medieval Castle & House_131: 415526810
+      Medieval Castle & House_132: 72507158
+      Medieval Castle & House_133: 1096824800
+      Medieval Castle & House_134: -1094350638
+      Medieval Castle & House_135: -2050923735
+      Medieval Castle & House_136: -1370975371
+      Medieval Castle & House_137: 1818217579
+      Medieval Castle & House_138: 839297644
+      Medieval Castle & House_139: -213315580
+      Medieval Castle & House_14: 1237900124
+      Medieval Castle & House_140: 41330671
+      Medieval Castle & House_141: 6324752
+      Medieval Castle & House_142: -722603935
+      Medieval Castle & House_143: -82915788
+      Medieval Castle & House_144: 1175768128
+      Medieval Castle & House_145: 1824516845
+      Medieval Castle & House_146: 1401110509
+      Medieval Castle & House_147: -63136141
+      Medieval Castle & House_148: -409255722
+      Medieval Castle & House_149: 319660489
+      Medieval Castle & House_15: 373069202
+      Medieval Castle & House_150: -1413167562
+      Medieval Castle & House_151: -161791761
+      Medieval Castle & House_152: 1443278979
+      Medieval Castle & House_153: -548230000
+      Medieval Castle & House_154: -392352401
+      Medieval Castle & House_155: 689334909
+      Medieval Castle & House_156: 1880941588
+      Medieval Castle & House_157: -424842270
+      Medieval Castle & House_158: 1030495362
+      Medieval Castle & House_159: 1450213444
+      Medieval Castle & House_16: -2029990730
+      Medieval Castle & House_160: 780968921
+      Medieval Castle & House_161: 1634710860
+      Medieval Castle & House_162: -1939524791
+      Medieval Castle & House_163: 1535384873
+      Medieval Castle & House_164: -409612734
+      Medieval Castle & House_165: 1685533557
+      Medieval Castle & House_166: 858057656
+      Medieval Castle & House_167: 820965558
+      Medieval Castle & House_168: 1213508243
+      Medieval Castle & House_169: -600778810
+      Medieval Castle & House_17: -1256786595
+      Medieval Castle & House_170: 526375897
+      Medieval Castle & House_171: 487760633
+      Medieval Castle & House_172: 650943599
+      Medieval Castle & House_173: -246037504
+      Medieval Castle & House_18: 1840694769
+      Medieval Castle & House_19: 911370379
+      Medieval Castle & House_2: -1610917352
+      Medieval Castle & House_20: 1128826252
+      Medieval Castle & House_21: -1842112287
+      Medieval Castle & House_22: -1170161648
+      Medieval Castle & House_23: -1956330860
+      Medieval Castle & House_24: -1418674146
+      Medieval Castle & House_25: -2017378506
+      Medieval Castle & House_26: -1170638129
+      Medieval Castle & House_27: -627220227
+      Medieval Castle & House_28: 2112949456
+      Medieval Castle & House_29: -1596458251
+      Medieval Castle & House_3: 1581884825
+      Medieval Castle & House_30: 402539868
+      Medieval Castle & House_31: 640883189
+      Medieval Castle & House_32: -187870265
+      Medieval Castle & House_33: -1133727012
+      Medieval Castle & House_34: -1234771937
+      Medieval Castle & House_35: -2020841050
+      Medieval Castle & House_36: 735982830
+      Medieval Castle & House_37: -1442386730
+      Medieval Castle & House_38: -1705723209
+      Medieval Castle & House_39: 2136745183
+      Medieval Castle & House_4: -1797438220
+      Medieval Castle & House_40: 985586618
+      Medieval Castle & House_41: 108472370
+      Medieval Castle & House_42: 1434581910
+      Medieval Castle & House_43: 295360811
+      Medieval Castle & House_44: -78953951
+      Medieval Castle & House_45: -420437706
+      Medieval Castle & House_46: 1760327477
+      Medieval Castle & House_47: 89039058
+      Medieval Castle & House_48: 1800211971
+      Medieval Castle & House_49: 1355228925
+      Medieval Castle & House_5: 1682786980
+      Medieval Castle & House_50: 1606593763
+      Medieval Castle & House_51: -1408590947
+      Medieval Castle & House_52: 63157932
+      Medieval Castle & House_53: -1317286836
+      Medieval Castle & House_54: -894591372
+      Medieval Castle & House_55: -1545850343
+      Medieval Castle & House_56: 109948597
+      Medieval Castle & House_57: 1442703389
+      Medieval Castle & House_58: 45415159
+      Medieval Castle & House_59: -584548214
+      Medieval Castle & House_6: 590175556
+      Medieval Castle & House_60: 484057530
+      Medieval Castle & House_61: -362085391
+      Medieval Castle & House_62: 1156892101
+      Medieval Castle & House_63: 248684918
+      Medieval Castle & House_64: 1405789234
+      Medieval Castle & House_65: 1380556052
+      Medieval Castle & House_66: -1650853519
+      Medieval Castle & House_67: -1192086116
+      Medieval Castle & House_68: -843836901
+      Medieval Castle & House_69: 1683762932
+      Medieval Castle & House_7: 927333765
+      Medieval Castle & House_70: 81355874
+      Medieval Castle & House_71: 603779084
+      Medieval Castle & House_72: -169241348
+      Medieval Castle & House_73: -5909345
+      Medieval Castle & House_74: -1140714995
+      Medieval Castle & House_75: 1608752112
+      Medieval Castle & House_76: 1862066971
+      Medieval Castle & House_77: 133904678
+      Medieval Castle & House_78: -1717766575
+      Medieval Castle & House_79: -765405459
+      Medieval Castle & House_8: -601893355
+      Medieval Castle & House_80: -1136403316
+      Medieval Castle & House_81: -811993226
+      Medieval Castle & House_82: 1541402079
+      Medieval Castle & House_83: -692310593
+      Medieval Castle & House_84: -64284711
+      Medieval Castle & House_85: 118814733
+      Medieval Castle & House_86: -1065745984
+      Medieval Castle & House_87: -889919373
+      Medieval Castle & House_88: -921337523
+      Medieval Castle & House_89: 575679309
+      Medieval Castle & House_9: 192947672
+      Medieval Castle & House_90: -2095959930
+      Medieval Castle & House_91: -1344971731
+      Medieval Castle & House_92: -1666577278
+      Medieval Castle & House_93: -682007385
+      Medieval Castle & House_94: -1911075280
+      Medieval Castle & House_95: -1262245910
+      Medieval Castle & House_96: 541865559
+      Medieval Castle & House_97: 1328468333
+      Medieval Castle & House_98: -81891106
+      Medieval Castle & House_99: -1672525916
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

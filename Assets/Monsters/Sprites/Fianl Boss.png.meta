@@ -1,0 +1,497 @@
+fileFormatVersion: 2
+guid: b8a04cee4d7f94248a1f86e9d49c04c7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fianl Boss_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245
+        width: 497
+        height: 245
+      alignment: 9
+      pivot: {x: 0.49542117, y: 0.5835985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24360f08c523ae644b703eb4ed63cbb5
+      internalID: -1333783444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_1
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 245
+        width: 497
+        height: 245
+      alignment: 9
+      pivot: {x: 0.5030529, y: 0.59288716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25f9ed8b4b7f4f48a0dc014a434e45b
+      internalID: -1486453568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_2
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 245
+        width: 497
+        height: 245
+      alignment: 9
+      pivot: {x: 0.50610524, y: 0.60217583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1f8ebc1736f74429e01dfa43651483
+      internalID: -1247202847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_3
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 245
+        width: 497
+        height: 245
+      alignment: 9
+      pivot: {x: 0.5106845, y: 0.6083684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6c6d084a846834f8fffdce24fbc799
+      internalID: -341043755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_4
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 245
+        width: 497
+        height: 245
+      alignment: 9
+      pivot: {x: 0.51526344, y: 0.59288716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03d5a38a572f4645bb4329e7fbe06b5
+      internalID: -870877625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_5
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 245
+        width: 497
+        height: 245
+      alignment: 9
+      pivot: {x: 0.52136844, y: 0.5805023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e98224eccb8104d8c79342f1793cf0
+      internalID: 783837443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_6
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 245
+        width: 497
+        height: 245
+      alignment: 9
+      pivot: {x: 0.5259477, y: 0.5681172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9bdf156528b604ea8d8b521cce60d4
+      internalID: -14944037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_7
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 245
+        width: 497
+        height: 245
+      alignment: 9
+      pivot: {x: 0.5320532, y: 0.565021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920557de428840b4f96043a929dce0d7
+      internalID: -1984020248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 497
+        height: 245
+      alignment: 9
+      pivot: {x: 0.49606422, y: 0.49467763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d04d07213eb5a46937dd9c236f7d1b
+      internalID: 283528086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_9
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 0
+        width: 497
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61099ff70daeea4ea4fe3cd4c5d4591
+      internalID: 1410429180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_10
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 0
+        width: 497
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2ad51e63671234f8c07e6ff83446b6
+      internalID: -1337959910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_11
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 0
+        width: 497
+        height: 245
+      alignment: 9
+      pivot: {x: 0.51055086, y: 0.51751155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677cc9e1046672045a792714395ed3e1
+      internalID: 780097332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_12
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 0
+        width: 497
+        height: 245
+      alignment: 9
+      pivot: {x: 0.51670474, y: 0.50753045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0209997d4ac130479fea1799c556ab0
+      internalID: 1882482660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_13
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 0
+        width: 497
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bea65c4c85314d49911bfff079290a8
+      internalID: 886952225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_14
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 0
+        width: 497
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dff43e6787bbb47bb8165cdb9f3996
+      internalID: 2081954681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_15
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 0
+        width: 497
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8281eb4a0876345a71b2a509f2b585
+      internalID: -1058568213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fianl Boss_16
+      rect:
+        serializedVersion: 2
+        x: 4244
+        y: 172
+        width: 98
+        height: 76
+      alignment: 9
+      pivot: {x: 0.47018993, y: 0.34945178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3c84259ce53b64fba7978b5e0c1bcf
+      internalID: 1665943047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fianl Boss_0: -1333783444
+      Fianl Boss_1: -1486453568
+      Fianl Boss_10: -1337959910
+      Fianl Boss_11: 780097332
+      Fianl Boss_12: 1882482660
+      Fianl Boss_13: 886952225
+      Fianl Boss_14: 2081954681
+      Fianl Boss_15: -1058568213
+      Fianl Boss_16: 1665943047
+      Fianl Boss_2: -1247202847
+      Fianl Boss_3: -341043755
+      Fianl Boss_4: -870877625
+      Fianl Boss_5: 783837443
+      Fianl Boss_6: -14944037
+      Fianl Boss_7: -1984020248
+      Fianl Boss_8: 283528086
+      Fianl Boss_9: 1410429180
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

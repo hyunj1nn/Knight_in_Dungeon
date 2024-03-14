@@ -1,0 +1,594 @@
+fileFormatVersion: 2
+guid: f5a28bec66eb55e49a33c2937e102a18
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: voldo_Death0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 16
+        width: 52
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae34a059c5430f47896c23c8237f6e7
+      internalID: 1322336642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death1
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 18
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabe87b39a44ed1429ceca83cdc2a897
+      internalID: 1430248854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death_3
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 18
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4e0f16d452ae4488831c027c318991
+      internalID: 305274937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death_4
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 18
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990cdf5c79f792b45a992f644127378d
+      internalID: -126195881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death_5
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 18
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5dade34c508e640aea28b71c3f6f5f
+      internalID: 744011696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death_6
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 18
+        width: 66
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b60482142fb9484b8f421663a819dcf
+      internalID: -2047595151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death_7
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 16
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38cb1f789c923a4788c8093a393bff6
+      internalID: -1515285481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death2
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 16
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fe0a95c57c07b4a9ddf5967fc6298b
+      internalID: -606532041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death3
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 16
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3aa04a0c32587479d7b27d680a11f6
+      internalID: -957339803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death_14
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 16
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6985c2ccd808e0541afa95d89034307b
+      internalID: -190925097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death_15
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 16
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78168bcd376dc0448baab91ce719ec3e
+      internalID: 698441102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death_16
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 16
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079d83815bbe2ed47b1d04b9ea83c664
+      internalID: 1871697744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death4
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 16
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880c83cd36fe1fe49857085972206725
+      internalID: 796952681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death5
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 16
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6fa87b493578a4e8eeef23007d0bdf
+      internalID: -1430905464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death6
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 18
+        width: 49
+        height: 61
+      alignment: 9
+      pivot: {x: 0.53990704, y: 0.49999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0feb174ef59aa41b011976b47ae48c
+      internalID: 278379185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death_23
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 16
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529ecc86b0f17844b8f0e84a92e0e935
+      internalID: -1173319300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death_24
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 16
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e77bddadfbb45e4790a0fa0b97d6818
+      internalID: 117176513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death7
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 23
+        width: 43
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5614468, y: 0.45521784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fad8bdf81a56a7468e616e797e86dec
+      internalID: -1580425649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death8
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 19
+        width: 46
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5198152, y: 0.45237875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deb19fa2f80c244a94ed5734db65e8d
+      internalID: 1478829961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voldo_Death9
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 16
+        width: 43
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae53d5e4ff3ed644930cf083fa40db9
+      internalID: 253942780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      voldo_Death0: 1322336642
+      voldo_Death1: 1430248854
+      voldo_Death2: -606532041
+      voldo_Death3: -957339803
+      voldo_Death4: 796952681
+      voldo_Death5: -1430905464
+      voldo_Death6: 278379185
+      voldo_Death7: -1580425649
+      voldo_Death8: 1478829961
+      voldo_Death9: 253942780
+      voldo_Death_12: 533415685
+      voldo_Death_13: -1305592976
+      voldo_Death_14: -190925097
+      voldo_Death_15: 698441102
+      voldo_Death_16: 1871697744
+      voldo_Death_20: 538402925
+      voldo_Death_21: 1448176749
+      voldo_Death_22: 364095593
+      voldo_Death_23: -1173319300
+      voldo_Death_24: 117176513
+      voldo_Death_25: -218799798
+      voldo_Death_26: 717198759
+      voldo_Death_27: 679162056
+      voldo_Death_28: 387663989
+      voldo_Death_29: 99293621
+      voldo_Death_3: 305274937
+      voldo_Death_30: 98354892
+      voldo_Death_31: 655048563
+      voldo_Death_32: -644888438
+      voldo_Death_33: 150764065
+      voldo_Death_34: -1107315927
+      voldo_Death_35: 59795387
+      voldo_Death_36: 1658336054
+      voldo_Death_37: 551033064
+      voldo_Death_38: -439211522
+      voldo_Death_39: -153060385
+      voldo_Death_4: -126195881
+      voldo_Death_40: 1564420973
+      voldo_Death_41: -1497310142
+      voldo_Death_42: 742152838
+      voldo_Death_43: 288330239
+      voldo_Death_44: -1369882753
+      voldo_Death_45: -1310370826
+      voldo_Death_46: 701020929
+      voldo_Death_47: 1856987295
+      voldo_Death_48: 1514308994
+      voldo_Death_49: -1956926518
+      voldo_Death_5: 744011696
+      voldo_Death_50: -1529168303
+      voldo_Death_6: -2047595151
+      voldo_Death_7: -1515285481
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

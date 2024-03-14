@@ -6,10 +6,9 @@ public class Boss : Enemy
 {
     public GameObject weaponItemPrefab; // 드랍할 무기 아이템 프리팹
  
-    public bool isFinalBoss = false; // 마지막 보스인지 여부를 나타내는 플래그. 기본값은 false입니다.
+    public bool isFinalBoss = false; // 마지막 보스인지 여부를 나타내는 플래그
 
     private bool isDead = false; // 보스가 이미 죽었는지 확인하는 플래그
-    private AudioSource audioSource;
 
     [Header("파이어볼")]
     public GameObject fireballPrefab;       // 파이어볼 프리팹
@@ -58,13 +57,12 @@ public class Boss : Enemy
 
     public BossState currentState = BossState.Idle;
 
-    // 패턴 변경 주기 (예: 5초)
+    // 패턴 변경 주기 
     public float patternChangeInterval = 5f;
     private float patternTimer;
 
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
         StartCoroutine(StartPatternAfterDelay(5f));  // 5초 후에 패턴을 시작하도록 설정
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
@@ -84,7 +82,7 @@ public class Boss : Enemy
         {
             if (isFinalBoss)  // 마지막 보스라면
             {
-                BossDeath();  // BossDeath 함수를 호출합니다.
+                BossDeath();  // BossDeath 함수를 호출
             }
             DropWeaponItem();
             isDead = true; // 보스가 죽었음을 표시
@@ -100,7 +98,7 @@ public class Boss : Enemy
     }
     void BossDeath()
     {
-        // 보스의 체력이 0이 되면 호출됩니다.
+        // 보스의 체력이 0이 되면 호출
         GameManager.instance.OnBossDefeated();
     }
 
@@ -112,7 +110,7 @@ public class Boss : Enemy
         }
         else
         {
-            Debug.LogWarning("Weapon item prefab is not assigned!");
+            //Debug.LogWarning("Weapon item prefab is not assigned!");
         }
     }
 
@@ -146,7 +144,6 @@ public class Boss : Enemy
 
     void CastFireball()
     {
-        // 프리팹이나 스폰 포인트가 할당되지 않았다면 메서드를 빠져나옵니다.
         if (fireballPrefab == null || fireballSpawnPoint == null)
         {
             // Debug.LogWarning("Fireball prefab or spawn point is not assigned!");
@@ -168,20 +165,10 @@ public class Boss : Enemy
             Rigidbody2D fireballRb = fireballInstance.GetComponent<Rigidbody2D>();
             fireballRb.velocity = direction * fireballSpeed;
         }
-
-        if (fireballSound != null)
-        {
-            audioSource.PlayOneShot(fireballSound);
-        }
     }
 
     void CreatePoisonPits(int numberOfPits)
     {
-        if (audioSource != null && audioSource.clip != null)
-        {
-            audioSource.PlayOneShot(audioSource.clip);
-        }
-
         for (int i = 0; i < numberOfPits; i++)
         {
             Vector2 position = GetRandomPositionAroundPlayer();
@@ -210,11 +197,6 @@ public class Boss : Enemy
 
     void DashAttack()
     {
-        if (dashAttackSound != null)
-        {
-            audioSource.PlayOneShot(dashAttackSound);
-        }
-
         StartCoroutine(WarningThenDash());
     }
 
@@ -234,11 +216,11 @@ public class Boss : Enemy
 
             // 대쉬 시작
             Vector2 targetDirection = (player.position - transform.position).normalized;
-            yield return StartCoroutine(DashTowardsTarget(targetDirection));  // 대쉬가 완료될 때까지 기다립니다.
+            yield return StartCoroutine(DashTowardsTarget(targetDirection));  // 대쉬가 완료될 때까지 기다림
 
             if (i < dashCount - 1)  // 마지막 돌진 전까지는 딜레이를 추가
             {
-                yield return new WaitForSeconds(0.5f);  // 예: 1.5초 동안 대기. 필요한 시간으로 조절 가능
+                yield return new WaitForSeconds(0.5f);  // n초 동안 대기. 필요한 시간으로 조절 가능
             }
         }
     }
@@ -247,7 +229,7 @@ public class Boss : Enemy
     {
         float startTime = Time.time;
 
-        // 대쉬 중에는 기존의 움직임을 중지합니다. (예: 움직임 스크립트 비활성화)
+        // 대쉬 중에는 기존의 움직임을 중지
 
         while (Time.time < startTime + dashDuration)
         {
@@ -255,29 +237,24 @@ public class Boss : Enemy
             yield return null; // 다음 프레임까지 대기
         }
 
-        // 대쉬 완료 후 원래의 움직임을 재개합니다. (예: 움직임 스크립트 활성화)
+        // 대쉬 완료 후 원래의 움직임을 재개
     }
 
     IEnumerator MissileCoroutine()
     {
-        if (guidedMissileSound != null)
-        {
-            audioSource.PlayOneShot(guidedMissileSound);
-        }
-
         if (fireballPrefab == null || fireballSpawnPoint == null)
         {
             yield break;
         }
 
-        int numberOfMissiles = 20; // 원하는 미사일의 수를 지정합니다.
-        float angleStep = 360f / numberOfMissiles; // 360도를 미사일의 수로 나눠 각도 스텝을 구합니다.
-        float delayBetweenMissiles = 0.1f; // 발사 간격 설정 (예: 0.1초)
+        int numberOfMissiles = 20; // 원하는 미사일의 수를 지정
+        float angleStep = 360f / numberOfMissiles; // 360도를 미사일의 수로 나눠 각도 스텝을 구함
+        float delayBetweenMissiles = 0.1f; // 발사 간격 설정 
 
         for (int i = 0; i < numberOfMissiles; i++)
         {
             float angle = angleStep * i;
-            Vector2 missileDirection = Quaternion.Euler(0, 0, -angle) * Vector2.right; // 시계 방향으로 회전하기 위해 음수로 각도를 설정합니다.
+            Vector2 missileDirection = Quaternion.Euler(0, 0, -angle) * Vector2.right; // 시계 방향으로 회전하기 위해 음수로 각도를 설정
 
             GameObject missileInstance = Instantiate(fireballPrefab, fireballSpawnPoint.position, Quaternion.identity);
             Rigidbody2D missileRb = missileInstance.GetComponent<Rigidbody2D>();
@@ -309,7 +286,7 @@ public class Boss : Enemy
             // 일정 시간 동안 대기
             yield return new WaitForSeconds(shootInterval);
 
-            elapsedTime += shootInterval;  // 대기 시간만큼 경과 시간을 더해줍니다.
+            elapsedTime += shootInterval;  // 대기 시간만큼 경과 시간을 더해줌
         }
     }
 }

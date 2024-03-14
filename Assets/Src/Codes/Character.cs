@@ -19,14 +19,14 @@ public class Character : MonoBehaviour
 
     public GameObject bloodEffectPrefab;  // 피 효과 프리팹 참조
     private float lastBloodEffectTime = 0f;  // 마지막으로 피 효과가 생성된 시간
-    public float bloodEffectCooldown = 0.5f;   // 피 효과 생성 쿨다운 (예: 1초)
+    public float bloodEffectCooldown = 0.5f;   // 피 효과 생성 쿨다운 
 
     [SerializeField] private AudioClip[] hitSounds; // 랜덤으로 재생될 피격 사운드들
     private AudioSource audioSource;
     private Animator animator;
 
     private float lastSoundPlayedTime = 0f;  // 마지막으로 사운드가 재생된 시간
-    public float soundCooldown = 0.2f;      // 사운드 재생 쿨다운 (예: 0.5초)
+    public float soundCooldown = 0.2f;      // 사운드 재생 쿨다운 
 
 
     public void Awake()
@@ -90,8 +90,8 @@ public class Character : MonoBehaviour
         if (bloodEffectPrefab != null && Time.time - lastBloodEffectTime >= bloodEffectCooldown)
         {
             GameObject bloodEffect = Instantiate(bloodEffectPrefab, transform.position, Quaternion.identity);
-            // 애니메이션이 종료된 후 자동 삭제 (옵션, 필요시 적용)
-            Destroy(bloodEffect, 1f);  // 예: 0.5초 후 삭제
+            // 애니메이션이 종료된 후 자동 삭제 
+            Destroy(bloodEffect, 1f);  // n초 후 삭제
             lastBloodEffectTime = Time.time;  // 마지막으로 피 효과가 생성된 시간 업데이트
         }
     }

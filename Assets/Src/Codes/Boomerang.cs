@@ -17,11 +17,10 @@ public class Boomerang : MonoBehaviour
     float timer;
     Player player;
 
-    private bool isReturning = false; // To track whether the bullet is returning
-    private Vector3 firingDirection; // To store the firing direction
-    //private Vector3 originalDirection; // To store the original firing direction
-    private float returnTime = 2.0f; // Time in seconds after which the bullet should start returning
-    private float elapsedTime = 0.0f; // Time elapsed since the bullet was fired
+    private bool isReturning = false; 
+    private Vector3 firingDirection; 
+    private float returnTime = 2.0f; 
+    private float elapsedTime = 0.0f; 
 
     void Awake()
     {
@@ -33,7 +32,7 @@ public class Boomerang : MonoBehaviour
     {
         transform.position = player.transform.position;
 
-        if (!isReturning) // If not returning, continue the normal update logic
+        if (!isReturning) 
         {
             switch (id)
             {
@@ -45,7 +44,6 @@ public class Boomerang : MonoBehaviour
                     if (timer > speed)
                     {
                         timer = 0f;
-                        //Debug.Log("Firing weapon...");
                         Fire();
                     }
                     break;
@@ -53,24 +51,20 @@ public class Boomerang : MonoBehaviour
 
             elapsedTime += Time.deltaTime;
 
-            // If the elapsed time exceeds the returnTime, start returning the bullet
             if (elapsedTime >= returnTime)
             {
                 StartReturning();
             }
         }
-        else // If returning, move the bullet back to the player along the original direction
+        else 
         {
             transform.position -= firingDirection * speed * Time.deltaTime;
 
-            // Check if the weapon has returned to the player
             if (Vector3.Distance(transform.position, player.transform.position) <= 0.1f)
             {
                 isReturning = false;
                 elapsedTime = 0.0f;
             }
-
-            // Add any additional logic if you want the bullet to stop or do something else upon returning
         }
     }
 
@@ -116,7 +110,6 @@ public class Boomerang : MonoBehaviour
     {
         for (int i = 0; i < projectileCount; i++)
         {
-            // For each projectile, generate a random firing direction
             float randomAngle = Random.Range(0, 360);
             Vector3 dir = new Vector3(Mathf.Cos(randomAngle * Mathf.Deg2Rad), Mathf.Sin(randomAngle * Mathf.Deg2Rad), 0).normalized;
             firingDirection = dir;
@@ -136,15 +129,12 @@ public class Boomerang : MonoBehaviour
         {
             audioSource.PlayOneShot(audioSource.clip);
         }
-        //AudioManager.instance.PlaySfx(AudioManager.Sfx.Boomerang);
     }
 
     void StartReturning()
     {
         isReturning = true;
         elapsedTime = 0.0f;
-
-        // No need to store the direction here
     }
 
     void ApplyDamage(Collider2D[] colliders)

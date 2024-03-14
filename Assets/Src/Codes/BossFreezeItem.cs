@@ -41,16 +41,16 @@ public class BossFreezeItem : MonoBehaviour
 
     void Update()
     {
-        if (!isActivated) return;  // 아이템이 활성화되지 않았다면 Update를 끝냅니다.
+        if (!isActivated) return;  // 아이템이 활성화되지 않았다면 Update를 끝냄
 
-        if (Time.time - lastFreezeTime < freezeCooldown) return;  // 쿨타임 동안은 얼림 기능을 실행하지 않습니다.
+        if (Time.time - lastFreezeTime < freezeCooldown) return;  
 
-        // 주변의 적들을 검색합니다.
+        // 주변의 적들을 검색
         Collider2D[] allEnemies = Physics2D.OverlapCircleAll(transform.position, detectionRadius);
 
         if (allEnemies.Length == 0) return;  // 감지된 적이 없다면 그냥 반환
 
-        // 가장 가까운 적을 찾습니다.
+        // 가장 가까운 적을 찾기
         Transform nearestEnemy = null;
         float minDistance = float.MaxValue;
 
@@ -66,16 +66,15 @@ public class BossFreezeItem : MonoBehaviour
 
         int detectedEnemyCount = 0;
 
-        // 가장 가까운 적 기준으로 다시 범위 내의 적들을 감지합니다.
+        // 가장 가까운 적 기준으로 다시 범위 내의 적들을 감지
         Collider2D[] enemiesNearbyNearest = Physics2D.OverlapCircleAll(nearestEnemy.position, detectionRadius);
 
-        // Sound flag to ensure sound is played only once.
         bool hasPlayedSound = false;
 
-        // 해당 범위의 적들을 얼림 처리 합니다.
+        // 해당 범위의 적들을 얼림 처리
         foreach (var enemyCollider in enemiesNearbyNearest)
         {
-            // 만약 감지된 적의 수가 maxDetectionCount를 초과하면 더 이상 적을 감지하지 않습니다.
+            // 만약 감지된 적의 수가 maxDetectionCount를 초과하면 더 이상 적을 감지하지 않기
             if (detectedEnemyCount >= maxDetectionCount) break;
 
             Enemy enemy = enemyCollider.GetComponent<Enemy>();
@@ -88,7 +87,6 @@ public class BossFreezeItem : MonoBehaviour
                 {
                     audioSource.PlayOneShot(audioSource.clip);
                 }
-                // Play sound only if it hasn't been played yet.
                 if (!hasPlayedSound)
                 {
                     //AudioManager.instance.PlaySfx(AudioManager.Sfx.Freeze);
@@ -99,7 +97,7 @@ public class BossFreezeItem : MonoBehaviour
             }
         }
 
-        // 어떤 적이라도 얼린다면 마지막으로 얼린 시간을 업데이트 합니다.
+        // 어떤 적이라도 얼린다면 마지막으로 얼린 시간을 업데이트 
         if (enemiesNearbyNearest.Length > 0)
         {
             lastFreezeTime = Time.time;
@@ -119,12 +117,11 @@ public class BossFreezeItem : MonoBehaviour
 
         enemy.isFrozen = true;
 
-        float originalMass = enemyRb.mass;  // 원래의 mass 값을 저장합니다.
-        enemyRb.mass = 1000;  // 얼려진 적의 mass 값을 아주 높게 설정합니다.
+        float originalMass = enemyRb.mass;  // 원래의 mass 값을 저장
+        enemyRb.mass = 1000;  // 얼려진 적의 mass 값을 아주 높게 설정
 
         enemy.speed = 0;
 
-        // 여기에 추가
         if (icePrefab == null)
         {
             Debug.LogError("Ice Prefab is not set!");
@@ -139,7 +136,7 @@ public class BossFreezeItem : MonoBehaviour
         enemy.speed = enemy.originalSpeed;
         Destroy(iceInstance);
 
-        enemyRb.mass = originalMass;  // 원래의 mass 값으로 되돌립니다.
+        enemyRb.mass = originalMass; 
         enemy.isFrozen = false;
     }
 
@@ -160,7 +157,6 @@ public class BossFreezeItem : MonoBehaviour
             // BossDropUi를 표시
             FreezeUi.instance.ShowBossDrop();
 
-            // 아이템을 지웁니다.
             Destroy(gameObject);
         }
     }

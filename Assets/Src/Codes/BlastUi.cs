@@ -28,7 +28,7 @@ public class BlastUi : MonoBehaviour
     {
         DisplayBossItems();
         rect.localScale = Vector3.one;
-        Debug.Log("Boss Drop UI Show!");
+        //Debug.Log("Boss Drop UI Show!");
         GameManager.instance.Stop();
     }
 
@@ -42,7 +42,7 @@ public class BlastUi : MonoBehaviour
     {
         if (items.Length == 0)
         {
-            Debug.LogWarning("No items in the BossDropUi's items array!");
+            //Debug.LogWarning("No items in the BossDropUi's items array!");
             return;
         }
 

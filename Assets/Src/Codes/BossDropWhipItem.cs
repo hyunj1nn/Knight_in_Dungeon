@@ -28,10 +28,9 @@ public class BossDropWhipItem : MonoBehaviour
                 whipWeapon.AcquireBossDropItem();
             }
 
-            // BossWhipUi를 표시 (이 부분은 필요에 따라 수정하실 수 있습니다.)
+            // BossWhipUi를 표시 
             BackWhipUi.instance.ShowBossDrop();
 
-            // 아이템을 지웁니다.
             Destroy(gameObject);
         }
     }

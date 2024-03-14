@@ -80,28 +80,6 @@ public class AudioManager : MonoBehaviour
             sfxPlayers[index].volume = sfxVolume;
         }
     }
-
-    //internal void PlaySfx(Sfx boxHit)
-    //{
-        //throw new NotImplementedException();
-    //}
-
-    //public void PlaySfx(Sfx sfx, float v)
-    //{
-        //for (int index=0; index < sfxPlayers.Length; index++)
-        //{
-            //int loopIndex = (index + channelIndex) % sfxPlayers.Length;
-
-            //if (sfxPlayers[loopIndex].isPlaying)
-               // continue;
-
-            //channelIndex = loopIndex;
-            //sfxPlayers[loopIndex].clip = sfxClips[(int)sfx];
-            //sfxPlayers[loopIndex].Play();
-            //break;
-        //}
-    //}
-
     public void PlayBgm(bool isPlay)
     {
         if (isPlay)

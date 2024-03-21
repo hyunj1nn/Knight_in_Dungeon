@@ -12,7 +12,7 @@ public class RespawnManager : MonoBehaviour
     private bool isSpawning = false;
     private List<GameObject> currentItems = new List<GameObject>(); // 현재 생성된 아이템들을 추적하기 위한 리스트
 
-    public bool showWaypoint = true;  // 이 변수를 통해 인스펙터에서 웨이포인트 표시 여부를 설정합니다.
+    public bool showWaypoint = true;  // 이 변수를 통해 인스펙터에서 웨이포인트 표시 여부를 설정
     public ItemWaypoint waypointManager;
     private Transform playerTransform;
 
@@ -31,9 +31,8 @@ public class RespawnManager : MonoBehaviour
     {
         if (currentItems.Count >= numberOfItems) return;
 
-        // 플레이어의 위치를 찾습니다.
+        // 플레이어의 위치를 찾기
         Vector3 playerPosition = playerTransform.position;
-        //Vector3 playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
 
         Vector3 spawnPosition;
 
@@ -61,7 +60,6 @@ public class RespawnManager : MonoBehaviour
     public Vector3 GenerateRandomSpawnPosition()
     {
         Vector3 playerPosition = playerTransform.position;
-        //Vector3 playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
         Vector3 spawnPosition;
 
         do

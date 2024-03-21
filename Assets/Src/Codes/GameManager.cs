@@ -35,11 +35,10 @@ public class GameManager : MonoBehaviour
     private int bossCount = 0;  // 현재까지 스폰된 보스 수
 
     [Header("# Boss Settings")]
-    public GameObject finalBossPrefab;  // 마지막 보스 프리팹을 드래그 & 드롭합니다.
+    public GameObject finalBossPrefab;  // 마지막 보스 프리팹을 드래그 & 드롭
     public Transform bossSpawnPoint;  // 보스가 스폰될 위치
     private bool bossSpawned = false;  // 보스가 이미 스폰됐는지 여부
     public float elapsedTime = 0f; // 게임이 시작된 후 경과한 시간
-    //private bool hasChangedBgm = false; // BGM이 변경되었는지 체크
 
     [Header("# Game UI")]
     public GameObject endGamePanel;  // EndGamePanel을 참조합니다.
@@ -75,7 +74,7 @@ public class GameManager : MonoBehaviour
 
         gameTime += Time.deltaTime;
 
-        if (gameTime > nextBossSpawnTime && bossCount < 3) // 보스는 3번까지 스폰되어야 합니다 (5분, 10분, 15분)
+        if (gameTime > nextBossSpawnTime && bossCount < 3) // 보스는 3번까지 스폰 (5분, 10분, 15분)
         {
             SpawnRegularBoss();
             bossCount++;
@@ -98,8 +97,8 @@ public class GameManager : MonoBehaviour
     {
         if (bossCount < regularBossPrefabs.Count) // 현재 보스 카운트가 리스트의 인덱스를 벗어나지 않도록 확인
         {
-            GameObject bossToSpawn = regularBossPrefabs[bossCount];  // 현재 스폰해야할 보스의 프리팹을 가져옵니다.
-            Instantiate(bossToSpawn, bossSpawnPoint.position, Quaternion.identity);  // 해당 보스 프리팹을 인스턴스화합니다.
+            GameObject bossToSpawn = regularBossPrefabs[bossCount]; 
+            Instantiate(bossToSpawn, bossSpawnPoint.position, Quaternion.identity);  // 해당 보스 프리팹을 인스턴스화
         }
         else
         {
@@ -172,7 +171,7 @@ public class GameManager : MonoBehaviour
     public void EndGame()
     {
         Stop();  // 게임을 중지합니다.
-        endGamePanel.SetActive(true);  // 게임 종료 UI 패널을 활성화합니다.
+        endGamePanel.SetActive(true);  // 게임 종료 UI 패널을 활성화
     }
 
     void ActivateVictoryScreen()
@@ -197,9 +196,9 @@ public class GameManager : MonoBehaviour
             Destroy(potion.gameObject);
         }
         Debug.Log("Restarting the game...");
-        endGamePanel.SetActive(false); // 게임 종료 UI 패널을 비활성화합니다.
+        endGamePanel.SetActive(false); // 게임 종료 UI 패널을 비활성화
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        Resume();  // 게임 시간 흐름을 재개합니다.
+        Resume();  // 게임 시간 흐름을 재개
     }
 
     public void GoToMainMenu()
@@ -215,9 +214,9 @@ public class GameManager : MonoBehaviour
         {
             Destroy(potion.gameObject);
         }
-        endGamePanel.SetActive(false); // 게임 종료 UI 패널을 비활성화합니다.
-        SceneManager.LoadScene("Home Screen");   // 메인 메뉴 씬으로 이동합니다.
-        Resume();  // 게임 시간 흐름을 재개합니다.
+        endGamePanel.SetActive(false); // 게임 종료 UI 패널을 비활성화
+        SceneManager.LoadScene("Home Screen");   // 메인 메뉴 씬으로 이동
+        Resume();  // 게임 시간 흐름을 재개
     }
 
     public void QuitGame()

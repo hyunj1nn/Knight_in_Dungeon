@@ -54,15 +54,15 @@ public class ItemWaypoint : MonoBehaviour
 
         if (isWithinScreen)
         {
-            waypoint.enabled = false; // 화면 내부에 있으면 웨이포인트를 숨깁니다.
+            waypoint.enabled = false; // 화면 내부에 있으면 웨이포인트를 숨김
         }
         else
         {
-            waypoint.enabled = true; // 화면 바깥에 있으면 웨이포인트를 표시합니다.
+            waypoint.enabled = true; // 화면 바깥에 있으면 웨이포인트를 표시
 
             int margin = 100; // 간격을 주기 위한 값
 
-            // 화면 경계 내로 웨이포인트 위치를 제한하면서 간격을 줍니다.
+            // 화면 경계 내로 웨이포인트 위치를 제한하면서 간격을 줌
             if (screenPos.x < margin) screenPos.x = margin;
             if (screenPos.x > Screen.width - margin) screenPos.x = Screen.width - margin;
             if (screenPos.y < margin) screenPos.y = margin;

@@ -208,7 +208,7 @@ public class Enemy : MonoBehaviour, IDamageable
     
     void DropItemBasedOnChance()
     {
-        float dropChance = UnityEngine.Random.Range(0f, 1f); // 0.0과 1.0 사이의 랜덤한 수를 얻습니다.
+        float dropChance = UnityEngine.Random.Range(0f, 1f); 
 
         GameObject dropPrefab = null;
 

@@ -21,7 +21,7 @@ public class DropOnDestroy : MonoBehaviour
         {
             if (Random.value < chanceToDrop && pickUpItems.Length > 0)
             {
-                // 확률적으로 아이템을 선택합니다.
+                // 확률적으로 아이템을 선택
                 GameObject itemToDrop = ChooseRandomItemByWeight();
                 if (itemToDrop)
                 {
@@ -58,6 +58,6 @@ public class DropOnDestroy : MonoBehaviour
             }
         }
 
-        return null; // 이 코드는 실행되지 않아야 합니다. 여기에 도달하면 문제가 있음을 의미합니다.
+        return null;
     }
 }

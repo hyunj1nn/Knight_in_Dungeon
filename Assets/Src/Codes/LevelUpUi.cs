@@ -17,7 +17,7 @@ public class LevelUpUi : MonoBehaviour
     {
         next();
         rect.localScale = Vector3.one;
-        Debug.Log("Level Up UI Show!"); // Add this line
+        Debug.Log("Level Up UI Show!"); 
         GameManager.instance.Stop();
     }
 
@@ -34,20 +34,18 @@ public class LevelUpUi : MonoBehaviour
 
     void next()
     {
-        // 1. 모든 아이템 비활성화
+        // 모든 아이템 비활성화
         foreach (Item item in items)
         {
             item.gameObject.SetActive(false);
         }
 
-        // Create a list with indices of all items
         List<int> indices = new List<int>();
         for (int i = 0; i < items.Length; i++)
         {
             indices.Add(i);
         }
 
-        // Select and remove 3 random indices
         int[] ran = new int[3];
         for (int i = 0; i < ran.Length; i++)
         {

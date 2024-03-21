@@ -10,7 +10,6 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        //Debug.Log("Update is working");
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)

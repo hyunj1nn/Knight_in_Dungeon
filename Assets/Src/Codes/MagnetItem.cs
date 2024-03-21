@@ -14,14 +14,14 @@ public class MagnetItem : MonoBehaviour
 
     private void Start()
     {
-        playerTransform = FindObjectOfType<Character>().transform;  // 플레이어의 Transform을 찾습니다.
+        playerTransform = FindObjectOfType<Character>().transform;  // 플레이어의 Transform을 찾기
     }
 
     private void Update()
     {
-        if (!isActive) return;  // 자석 효과가 활성화되지 않았다면 Update를 끝냅니다.
+        if (!isActive) return;  // 자석 효과가 활성화되지 않았다면 Update를 끝냄
 
-        // 주변의 모든 GemPickUpObject를 찾습니다.
+        // 주변의 모든 GemPickUpObject를 찾기
         Collider2D[] gemsInRange = Physics2D.OverlapCircleAll(playerTransform.position, magnetRadius);
 
         foreach (Collider2D gemCollider in gemsInRange)
@@ -32,8 +32,7 @@ public class MagnetItem : MonoBehaviour
                 Vector2 directionToPlayer = (playerTransform.position - gem.transform.position).normalized;
                 gem.transform.position += (Vector3)directionToPlayer * magnetForce * Time.deltaTime;
 
-                // GemPickUpObject의 OnTriggerEnter2D 메서드가 실행되어 플레이어에게 아이템을 줄 수 있도록, 
-                // gem이 충분히 가까워지면 리스트에서 제거합니다.
+                // gem이 충분히 가까워지면 리스트에서 제거
                 if (Vector2.Distance(playerTransform.position, gem.transform.position) < 0.5f)
                 {
                     attractedGems.Remove(gem.transform);
@@ -45,7 +44,7 @@ public class MagnetItem : MonoBehaviour
             }
         }
 
-        // 범위 밖에 있는 GemPickUpObject는 리스트에서 제거합니다.
+        // 범위 밖에 있는 GemPickUpObject는 리스트에서 제거
         attractedGems.RemoveAll(gem => gem == null || !IsWithinMagnetRange(gem.position));
     }
     public void ActivateMagnet(float duration)

@@ -37,9 +37,7 @@ public class LevelUp : MonoBehaviour
             experience -= TO_LEVEL_UP;
             level += 1;
             experienceBar.SetLevelText(level);
-            //Debug.Log("Level Up! Current level: " + level); // This line is added.
 
-            // GameManager에 레벨업을 알립니다.
             GameManager.instance.LevelUp(level);
         }
     }

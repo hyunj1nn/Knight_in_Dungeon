@@ -33,7 +33,7 @@ public class WhipWeapon : MonoBehaviour
     {
         if (isBossDropItemAcquired)
         {
-            this.enabled = false;  // 복제된 무기의 Update를 비활성화합니다.
+            this.enabled = false;  // 복제된 무기의 Update를 비활성화
         }
     }
 
@@ -58,7 +58,7 @@ public class WhipWeapon : MonoBehaviour
             if (clonedWhip.timer < 0f)
             {
                 clonedWhip.Attack();
-                clonedWhip.timer = clonedWhip.timeToAttack;  // 복제된 무기의 timer를 재설정합니다.
+                clonedWhip.timer = clonedWhip.timeToAttack;  // 복제된 무기의 timer를 재설정
             }
         }
     }
@@ -75,7 +75,7 @@ public class WhipWeapon : MonoBehaviour
 
         timer = timeToAttack; // 기존의 무기 timer 초기화
 
-        // 복제된 무기의 속성값도 업데이트합니다.
+        // 복제된 무기의 속성값도 업데이트
         if (clonedWhip != null)
         {
             clonedWhip.damage = this.damage;
@@ -94,10 +94,10 @@ public class WhipWeapon : MonoBehaviour
         {
             isBossDropItemAcquired = true;
 
-            // 현재 WhipWeapon의 복제본을 생성합니다.
+            // 현재 WhipWeapon의 복제본을 생성
             clonedWhip = Instantiate(this, player.transform);
 
-            // Y축을 기준으로 180도 회전하여 무기를 뒤집습니다.
+            // Y축을 기준으로 180도 회전하여 무기를 뒤집기
             clonedWhip.transform.localRotation = Quaternion.Euler(180, 180, 0);
 
             // 복제본의 timer와 timeToAttack 값을 원본의 값과 동일하게 설정
@@ -128,7 +128,6 @@ public class WhipWeapon : MonoBehaviour
         {
             audioSource.PlayOneShot(audioSource.clip);
         }
-        //AudioManager.instance.PlaySfx(AudioManager.Sfx.Whip);
     }
 
     private void ApplyDamage(Collider2D[] colliders)

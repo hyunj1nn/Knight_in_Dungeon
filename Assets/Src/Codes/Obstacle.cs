@@ -25,7 +25,7 @@ public class Obstacle : MonoBehaviour
         // 리스트 내 모든 장애물을 확인하고, 너무 멀리 떨어진 장애물은 제거하고 새로 생성
         for (int i = obstacles.Count - 1; i >= 0; i--)
         {
-            // 만약 장애물이 이미 파괴되었다면 리스트에서 제거하고 continue로 다음 반복으로 넘어갑니다.
+            // 만약 장애물이 이미 파괴되었다면 리스트에서 제거하고 continue로 다음 반복으로 넘어가기
             if (obstacles[i] == null)
             {
                 obstacles.RemoveAt(i);

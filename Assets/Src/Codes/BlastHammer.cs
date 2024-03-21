@@ -61,7 +61,6 @@ public class BlastHammer : MonoBehaviour
                 }
             }
 
-            // 현재 시간이 마지막으로 데미지를 입힌 시간 + 데미지 간격보다 크거나 같으면 데미지를 입힙니다.
             if (Time.time >= lastDamageTime + speed)
             {
                 for (int i = 0; i < Mathf.Min(projectileCount, detectedEnemies.Count); i++)

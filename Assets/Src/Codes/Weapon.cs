@@ -27,9 +27,6 @@ public class Weapon : MonoBehaviour
     void Awake()
     {
         player = GameManager.instance.player;
-
-        // position 값을 고정하여 원하는 위치로 설정
-        //transform.position = new Vector3(0f, -1.6f, 0f);
     }
 
     void Update()
@@ -38,7 +35,6 @@ public class Weapon : MonoBehaviour
             return;
 
         timer -= Time.deltaTime;
-        //Debug.Log("Timer: " + timer);  // 매 프레임마다 timer 값을 출력합니다.
         if (timer < 0f)
         {
             Attack();
@@ -51,21 +47,13 @@ public class Weapon : MonoBehaviour
                 break;
             default:
                 timer += Time.deltaTime;
-                //Debug.Log("Current timer: " + timer + ", speed: " + speed);  // timer와 speed 값을 출력합니다.
 
                 if (timer > speed)
                 {
                     timer = 0f;
-                   // Fire();
                 }
                 break;
         }
-
-        // 테스트
-        //if (Input.GetButtonDown("Jump"))
-        //{
-        //LevelUp(20, 2);
-        //}
     }
 
     public void Init(ItemData data)

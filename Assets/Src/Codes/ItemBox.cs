@@ -7,7 +7,7 @@ public class ItemBox : MonoBehaviour, IDamageable
     public Animator anim; 
     private bool isOpened = false; // 상자가 이미 열렸는지 확인
 
-    public float timeBeforeRespawn = 60f; // 예: 60초
+    public float timeBeforeRespawn = 60f;
 
     private RespawnManager respawnManager;
     private AudioSource audioSource;
@@ -28,7 +28,7 @@ public class ItemBox : MonoBehaviour, IDamageable
         transform.position = newPosition;
         isOpened = false;
 
-        // 다음 리스폰을 위해 코루틴을 다시 시작합니다.
+        // 다음 리스폰을 위해 코루틴을 다시 시작
         StartCoroutine(RespawnAfterDelay(timeBeforeRespawn));
     }
 
@@ -39,7 +39,7 @@ public class ItemBox : MonoBehaviour, IDamageable
             return;
 
         // 상자가 무기와 충돌했을 때의 처리
-        anim.SetTrigger("Hit"); // 예를 들어, "Open"이라는 트리거가 아이템 상자의 Animator에 있다고 가정합니다.
+        anim.SetTrigger("Hit"); 
         isOpened = true; // 상자가 열렸음을 표시
 
         // AudioSource 컴포넌트가 있고 오디오 클립이 설정되어 있는 경우 사운드 재생
@@ -60,7 +60,7 @@ public class ItemBox : MonoBehaviour, IDamageable
         }
 
         anim.SetTrigger("Hit");
-        // 이전 로직을 바로 Destroy하는 대신에 위와 동일한 대기 시간을 가진 Coroutine을 호출합니다.
+        // 이전 로직을 바로 Destroy하는 대신에 위와 동일한 대기 시간을 가진 Coroutine을 호출
         StartCoroutine(DestroyAfterDelay(0.6f));
     }
 

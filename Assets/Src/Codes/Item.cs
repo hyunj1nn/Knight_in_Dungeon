@@ -16,15 +16,14 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public Thunder thunder;
     public GameObject rightWhipPrefab;
     public GameObject leftWhipPrefab;
-    public GameObject attackObjectPrefab;  // Add this line to reference the attack object prefab
+    public GameObject attackObjectPrefab;  
     public GameObject lightningPrefab;
 
     public Gear gear;
 
-    public Color normalColor;    // Default color
-    public Color highlightColor; // Color when mouse is over
+    public Color normalColor;    
+    public Color highlightColor; 
 
-    // You need to have an Image component attached to the button
     private Image image;
 
     Image icon;
@@ -45,20 +44,17 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         textDesc = texts[1];
         textName.text = data.itemName;
 
-        image = GetComponent<Image>(); // Get the Image component
-        normalColor = image.color; // Store the initial color
+        image = GetComponent<Image>(); 
+        normalColor = image.color;
     }
 
     void OnEnable()
     {
-        //Debug.Log("Level: " + level);
-
         textLevel.text = data.itemName;
 
         if (level == 0)
         {
             textBaseDesc.text = data.itemBaseDesc;
-            //Debug.Log("Base Desc: " + textBaseDesc.text);
         }
         else
         {
@@ -153,7 +149,7 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                 {
                     GameObject newWeapon = new GameObject();
                     weapon = newWeapon.AddComponent<Weapon>();
-                    weapon.attackObject = attackObjectPrefab; // Uncomment this line to assign the attackObjectPrefab
+                    weapon.attackObject = attackObjectPrefab; 
                     weapon.Init(data);
                 }
                 else if (level < data.damages.Length)
@@ -202,17 +198,14 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                 {
                     GameObject newBullet = new GameObject();
                     bullet = newBullet.AddComponent<Bullet>();
-                    bullet.attackObject = attackObjectPrefab; // Uncomment this line to assign the attackObjectPrefab
+                    bullet.attackObject = attackObjectPrefab; 
                     bullet.Init(data, data.projectileCounts[level]);
-                    //bullet.Init(data);
-
                 }
                 else if (level < data.damages.Length)
                 {
                     float nextDamage = data.baseDamage;
-                    int nextCount = data.counts[level]; // This is the penetration count
+                    int nextCount = data.counts[level];
                     int nextProjectileCount = data.projectileCounts[level];
-                    //int nextCount = 0;
 
                     for (int i = 0; i <= level; i++)
                     {
@@ -231,9 +224,8 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                 {
                     GameObject newBoomerang = new GameObject();
                     boomerang = newBoomerang.AddComponent<Boomerang>();
-                    boomerang.attackObject = attackObjectPrefab; // Uncomment this line to assign the attackObjectPrefab
+                    boomerang.attackObject = attackObjectPrefab; 
                     boomerang.Init(data, data.projectileCounts[level]);
-                    //boomerang.Init(data);
                 }
                 else if (level < data.damages.Length)
                 {
@@ -258,18 +250,15 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                 {
                     GameObject newThunder = new GameObject();
                     thunder = newThunder.AddComponent<Thunder>();
-                    thunder.attackObject = attackObjectPrefab; // Uncomment this line to assign the attackObjectPrefab
+                    thunder.attackObject = attackObjectPrefab; 
                     thunder.lightningPrefab = lightningPrefab;
                     thunder.Init(data, data.projectileCounts[level]);
-                    //bullet.Init(data);
-
                 }
                 else if (level < data.damages.Length)
                 {
                     float nextDamage = data.baseDamage;
-                    int nextCount = data.counts[level]; // This is the penetration count
+                    int nextCount = data.counts[level]; 
                     int nextProjectileCount = data.projectileCounts[level];
-                    //int nextCount = 0;
 
                     for (int i = 0; i <= level; i++)
                     {
@@ -302,14 +291,14 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                 Character character = FindObjectOfType<Character>(); // 플레이어 객체 찾기
                 if (character != null)
                 {
-                    character.Heal(200); // 체력을 200만큼 회복합니다.
+                    character.Heal(200); // 체력을 200만큼 회복
                 }
                 break;
             case ItemData.ItemType.Armor:
                 Character characterArmor = FindObjectOfType<Character>();
                 if (characterArmor != null)
                 {
-                    characterArmor.IncreaseArmor(0.1f);  // 방어력을 0.1만큼 증가시킵니다.
+                    characterArmor.IncreaseArmor(0.1f);  // 방어력을 0.1만큼 증가
                 }
                 break;
 
@@ -328,13 +317,11 @@ public class Item : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        // This method is called when the mouse pointer is over the button
-        image.color = highlightColor; // Change the color to the highlight color
+        image.color = highlightColor; 
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        // This method is called when the mouse pointer leaves the button
-        image.color = normalColor; // Change the color back to the normal color
+        image.color = normalColor; 
     }
 }

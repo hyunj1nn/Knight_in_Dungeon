@@ -24,7 +24,7 @@ public class DarknessBullet : MonoBehaviour
 
     void Update()
     {
-        if (!isActivated) return;  // 아이템이 활성화되지 않았다면 Update를 끝냅니다.
+        if (!isActivated) return;  // 아이템이 활성화되지 않았다면 Update를 끝냄
 
         if (!player.scanner.nearestTarget)
             return;
@@ -34,7 +34,7 @@ public class DarknessBullet : MonoBehaviour
         dir = dir.normalized;
 
         float distanceToTarget = Vector3.Distance(targetPos, transform.position);
-        if (distanceToTarget <= detectionRadius) // detectionRadius는 원하는 감지 범위를 정의한 변수입니다.
+        if (distanceToTarget <= detectionRadius) // detectionRadius는 원하는 감지 범위를 정의한 변수
         {
             if (Time.time >= lastDamageTime + speed)
             {
@@ -72,7 +72,7 @@ public class DarknessBullet : MonoBehaviour
 
             // 칼의 회전 설정 (적의 방향을 향하게 함)
             float angle = Mathf.Atan2(currentDir.y, currentDir.x) * Mathf.Rad2Deg;
-            hammer.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90)); // -90은 칼이 위를 향하도록 회전하는 데 필요한 오프셋입니다.
+            hammer.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90)); 
 
             // Rigidbody2D를 사용하여 무기 발사
             Rigidbody2D rb = hammer.GetComponent<Rigidbody2D>();
@@ -83,7 +83,6 @@ public class DarknessBullet : MonoBehaviour
         {
             audioSource.PlayOneShot(audioSource.clip);
         }
-        //AudioManager.instance.PlaySfx(AudioManager.Sfx.Darkness);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -98,10 +97,8 @@ public class DarknessBullet : MonoBehaviour
             }
             playerHammerItem.isActivated = true;  // 아이템 활성화
 
-            // BossDropUi를 표시
             DarknessUi.instance.ShowBossDrop();
 
-            // 아이템을 지웁니다.
             Destroy(gameObject);
         }
     }

@@ -10,10 +10,10 @@ public class ReturnBoomerang  : MonoBehaviour
     [SerializeField] public float acceleration = 1.0f; // 가속도 설정
 
     Rigidbody2D rigid;
-    private Vector3 direction; // To store the firing direction
-    [SerializeField] private float returnTime = 1.3f; // Time in seconds after which the bullet should start returning
-    private float elapsedTime = 0.0f; // Time elapsed since the bullet was fired
-    private bool isReturning = false; // To track whether the bullet is returning
+    private Vector3 direction; 
+    [SerializeField] private float returnTime = 1.3f; 
+    private float elapsedTime = 0.0f; 
+    private bool isReturning = false; 
     private Coroutine disappearCoroutine;
 
     [SerializeField] public float disappearanceTime = 3.5f;
@@ -21,11 +21,6 @@ public class ReturnBoomerang  : MonoBehaviour
     void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
-    }
-
-    void Start()
-    {
-        //StartCoroutine(DisappearAfterTime(disappearanceTime));
     }
 
     IEnumerator DisappearAfterTime(float time)
@@ -38,16 +33,13 @@ public class ReturnBoomerang  : MonoBehaviour
     {
         elapsedTime += Time.deltaTime;
 
-        // Add rotation
         transform.Rotate(0, 0, rotationSpeed * Time.deltaTime);
 
-        // Add acceleration
         if (!isReturning)
         {
             rigid.AddForce(direction * acceleration, ForceMode2D.Force);
         }
 
-        // If the elapsed time exceeds the returnTime, start returning the bullet
         if (elapsedTime >= returnTime && !isReturning)
         {
             isReturning = true;
@@ -68,7 +60,6 @@ public class ReturnBoomerang  : MonoBehaviour
             rigid.velocity = dir * 10f;
         }
 
-        // Add these lines to stop any running coroutine and start a new one
         if (disappearCoroutine != null)
         {
             StopCoroutine(disappearCoroutine);
@@ -78,7 +69,7 @@ public class ReturnBoomerang  : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Enemy") || per == -1)  // || = or
+        if (!collision.CompareTag("Enemy") || per == -1) 
             return;
 
         Enemy enemy = collision.GetComponent<Enemy>();

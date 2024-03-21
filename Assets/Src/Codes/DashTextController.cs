@@ -25,7 +25,7 @@ public class DashTextController : MonoBehaviour
         dashText.enabled = true;
         spacebarImage.enabled = true;
 
-        yield return new WaitForSeconds(displayTime - fadeDuration); // fadeDuration 전까지 기다립니다.
+        yield return new WaitForSeconds(displayTime - fadeDuration); 
 
         // 점점 옅어지면서 사라지는 애니메이션
         float startTime = Time.time;
@@ -36,7 +36,7 @@ public class DashTextController : MonoBehaviour
             dashText.color = newColor;
             spacebarImage.color = newColor;
 
-            yield return null; // 다음 프레임까지 기다립니다.
+            yield return null; 
         }
 
         dashText.enabled = false;

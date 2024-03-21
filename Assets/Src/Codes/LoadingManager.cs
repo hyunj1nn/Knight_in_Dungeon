@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class LoadingManager : MonoBehaviour
 {
     public string sceneToLoad = "SampleScene"; // 로딩 후 이동할 씬
-    public float minimumLoadingTime = 5f;      // 로딩 화면을 표시할 최소 시간 (예: 3초)
+    public float minimumLoadingTime = 5f;      // 로딩 화면을 표시할 최소 시간 
 
     void Start()
     {

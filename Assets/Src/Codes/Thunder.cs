@@ -13,8 +13,6 @@ public class Thunder : MonoBehaviour
     public int damage;  // 무기 데미지
     public float damageRadius = 2.0f;
     public int count;  // 무기 갯수
-    //public float speed;  // 무기 속도
-    //public float bulletspeed;
     public int projectileCount = 1;
 
     // 데미지를 입히는 간격(초)
@@ -31,7 +29,6 @@ public class Thunder : MonoBehaviour
     void Awake()
     {
         player = GameManager.instance.player;
-        //player = GetComponentInParent<Player>();
     }
 
     void Update()
@@ -44,15 +41,15 @@ public class Thunder : MonoBehaviour
         dir = dir.normalized;
 
         float distanceToTarget = Vector3.Distance(targetPos, transform.position);
-        if (distanceToTarget <= detectionRadius) // detectionRadius는 원하는 감지 범위를 정의한 변수입니다.
+        if (distanceToTarget <= detectionRadius) // detectionRadius는 원하는 감지 범위를 정의한 변수
         {
-            // 감지된 적을 저장할 리스트를 준비합니다.
+            // 감지된 적을 저장할 리스트를 준비
             List<Transform> detectedEnemies = new List<Transform>();
 
-            // 첫 번째 적을 리스트에 추가합니다.
+            // 첫 번째 적을 리스트에 추가
             detectedEnemies.Add(player.scanner.nearestTarget);
 
-            // 주변의 적들을 검색합니다.
+            // 주변의 적들을 검색
             Collider2D[] allEnemies = Physics2D.OverlapCircleAll(targetPos, detectionRadius);
             foreach (var enemyCollider in allEnemies)
             {
@@ -62,7 +59,6 @@ public class Thunder : MonoBehaviour
                 }
             }
 
-            // 현재 시간이 마지막으로 데미지를 입힌 시간 + 데미지 간격보다 크거나 같으면 데미지를 입힙니다.
             if (Time.time >= lastDamageTime + speed)
             {
                 for (int i = 0; i < Mathf.Min(projectileCount, detectedEnemies.Count); i++)
@@ -122,10 +118,8 @@ public class Thunder : MonoBehaviour
         dir = dir.normalized;
 
         float distanceToTarget = Vector3.Distance(targetPos, transform.position);
-        if (distanceToTarget <= detectionRadius) // detectionRadius는 원하는 감지 범위를 정의한 변수입니다.
+        if (distanceToTarget <= detectionRadius) // detectionRadius는 원하는 감지 범위를 정의한 변수
         {
-            // 직접 공격의 경우에는 무기 발사를 위한 타이머나 속도 등은 필요 없습니다.
-            // 대신, 데미지를 바로 입히는 코드를 작성합니다.
             ApplyDamage(player.scanner.nearestTarget.GetComponent<Collider2D>());
         }
     }
@@ -133,7 +127,7 @@ public class Thunder : MonoBehaviour
 
     void ApplyDamage(Collider2D detectedEnemyCollider)
     {
-        // 첫 번째로 감지된 적에게 데미지를 입히고 번개 애니메이션을 표시합니다.
+        // 첫 번째로 감지된 적에게 데미지를 입히고 번개 애니메이션을 표시
         Enemy primaryEnemy = detectedEnemyCollider.gameObject.GetComponent<Enemy>();
         if (primaryEnemy != null)
         {
@@ -143,19 +137,16 @@ public class Thunder : MonoBehaviour
             {
                 audioSource.PlayOneShot(audioSource.clip);
             }
-            //AudioManager.instance.PlaySfx(AudioManager.Sfx.Thunder);
             Instantiate(lightningPrefab, primaryEnemy.transform.position, Quaternion.identity);
         }
-        //AudioManager.instance.PlaySfx(AudioManager.Sfx.Thunder);
 
-        // 첫 번째로 감지된 적 주위에 있는 적들을 찾습니다.
+        // 첫 번째로 감지된 적 주위에 있는 적들을 찾기
         Collider2D[] enemiesInRange = Physics2D.OverlapCircleAll(detectedEnemyCollider.transform.position, damageRadius);
 
         foreach (Collider2D enemyCollider in enemiesInRange)
         {
             Enemy enemy = enemyCollider.gameObject.GetComponent<Enemy>();
 
-            // 첫 번째로 감지된 적이 아니면 데미지만 입힙니다.
             if (enemy != null && enemy != primaryEnemy)
             {
                 enemy.TakeDamage(damage);

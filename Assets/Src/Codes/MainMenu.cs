@@ -13,6 +13,4 @@ public class MainMenu : MonoBehaviour
         mainMenuPanel.SetActive(false);
         subMenuPanel.SetActive(true);
     }
-
-    // 필요하다면 다른 버튼에 대한 함수도 여기에 추가할 수 있습니다.
 }

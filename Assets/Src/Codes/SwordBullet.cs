@@ -84,20 +84,19 @@ public class SwordBullet : MonoBehaviour
 
     void Fire()
     {
-        // 플레이어가 왼쪽을 보고 있으면 왼쪽으로, 오른쪽을 보고 있으면 오른쪽으로 발사합니다.
+        // 플레이어가 왼쪽을 보고 있으면 왼쪽으로, 오른쪽을 보고 있으면 오른쪽으로 발사
         Vector3 dir = player.spriter.flipX ? new Vector3(-1, 0, 0) : new Vector3(1, 0, 0);
         dir = dir.normalized;
 
-        // 발사체 각도의 증가량을 설정합니다. 발사체의 수에 따라 조정됩니다.
+        // 발사체 각도의 증가량을 설정합니다. 발사체의 수에 따라 조정
         float incrementAngle = 90f / projectileCount;
 
-        // Fire multiple projectiles
         for (int i = 0; i < projectileCount; i++)
         {
             Transform Sword = GameManager.instance.pool.Get(prefabId).transform;
             Sword.position = transform.position;
             // 각 발사체에 대한 방향 설정
-            float currentAngle = incrementAngle * i; // 시작 각도를 제거하였으므로, 각도의 증가만을 고려합니다.
+            float currentAngle = incrementAngle * i; 
             Vector3 projectileDir = new Vector3(dir.x * Mathf.Cos(currentAngle * Mathf.Deg2Rad) - dir.y * Mathf.Sin(currentAngle * Mathf.Deg2Rad),
                 dir.x * Mathf.Sin(currentAngle * Mathf.Deg2Rad) + dir.y * Mathf.Cos(currentAngle * Mathf.Deg2Rad), 0).normalized;
             Sword.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(projectileDir.y, projectileDir.x) * Mathf.Rad2Deg);
@@ -108,7 +107,6 @@ public class SwordBullet : MonoBehaviour
         {
             audioSource.PlayOneShot(audioSource.clip);
         }
-        //AudioManager.instance.PlaySfx(AudioManager.Sfx.SwordBullet);
     }
 
 

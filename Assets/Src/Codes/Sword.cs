@@ -29,15 +29,15 @@ public class Sword : MonoBehaviour
             rigid.velocity = dir * bulletspeed;
         }
 
-        if (shouldDisappear) // Only invoke the "Disappear" function if shouldDisappear is true
+        if (shouldDisappear) 
         {
-            Invoke("Disappear", despawnTime); // You can adjust the time as needed
+            Invoke("Disappear", despawnTime); 
         }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Enemy") || per == -1)  // || = or
+        if (!collision.CompareTag("Enemy") || per == -1) 
             return;
 
         Enemy enemy = collision.GetComponent<Enemy>();
@@ -50,7 +50,7 @@ public class Sword : MonoBehaviour
 
         if (per == -1)
         {
-            CancelInvoke("Disappear"); // Cancel the invocation of the "Disappear" method
+            CancelInvoke("Disappear"); 
             rigid.velocity = Vector2.zero;
             gameObject.SetActive(false);
         }
